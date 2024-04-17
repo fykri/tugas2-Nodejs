@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px 0px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin-top: 10px;
+    width: 15%;
+    border: 0;
+    background-color: rgb(130, 128, 0);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(199, 199, 0);
+}
+
+div#tampilkanData {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+
+div.card {
+    box-shadow: 10px 10px 14px -3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 10px 10px 14px -3px rgba(0,0,0,0.5);
+-moz-box-shadow: 10px 10px 14px -3px rgba(0,0,0,0.5);
+    width: 250px;
+    height: 275px;
+    border-radius: 10px;
+    background-color: #F5F7F8;
+}
+
+div.card img {
+    margin: 10px auto;
+    display: flex;
+    /* background-color: red; */
+    border: 1.5px solid black;
+    border-radius: 50%;
+}
+
+div.card h2 {
+    /* background-color: red; */
+    margin-top: 20px;
+    text-align: center;
+}
+
+div.card p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.container>p {
+    margin-top: 3px;
+    font-size: small;
+    color: red;
+}
