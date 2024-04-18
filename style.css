@@ -54,13 +54,11 @@ div.card {
 div.card img {
     margin: 10px auto;
     display: flex;
-    /* background-color: red; */
     border: 1.5px solid black;
     border-radius: 50%;
 }
 
 div.card h2 {
-    /* background-color: red; */
     margin-top: 20px;
     text-align: center;
 }
